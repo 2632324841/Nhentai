@@ -1,0 +1,21 @@
+{
+    "name": "deadlymous/nhentai",
+    "type": "library",
+    "description": "nhentai api",
+    "keywords" : ["nhentai"],
+    "authors": [
+        {
+            "name": "DeadlyMous",
+            "email": "2632324841@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "jaeger/querylist": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nhentai\\": "src/"
+        }
+    }
+}
