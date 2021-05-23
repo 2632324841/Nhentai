@@ -31,5 +31,10 @@ $Works = new Works();
 $Works->works($id);
 # 随机作品
 $Works->random();
+
+# 创建工厂
+$Search = Nhentai::create('Search');
+$data = $Search->search('azur lane');
+print_r($data);
 ```
 

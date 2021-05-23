@@ -3,7 +3,9 @@ namespace Nhentai;
 
 use QL\QueryList;
 use Nhentai\Tool;
-class Tags extends Tool{
+use Nhentai\InterfaceTags;
+
+class Tags extends Tool implements InterfaceTags{
     public function tags($page = 1, $popular = false){
         if($popular){
             $url = $this->Domain.'tags/popular/';

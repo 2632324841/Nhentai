@@ -3,8 +3,9 @@ namespace Nhentai;
 
 use QL\QueryList;
 use Nhentai\Tool;
+use Nhentai\InterfaceWorks;
 
-class Works extends Tool{
+class Works extends Tool implements InterfaceWorks{
     public function works($id){
         $url = $this->Domain.'/g/'.$id.'/';
 

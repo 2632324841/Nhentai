@@ -3,8 +3,9 @@ namespace Nhentai;
 
 use QL\QueryList;
 use Nhentai\Tool;
+use Nhentai\InterfaceSearch;
 
-class Search extends Tool{
+class Search extends Tool implements InterfaceSearch{
 
     public function search($query, $page=1){
 
