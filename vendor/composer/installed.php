@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'a452e7ef67e2a52ee46ce5eb7a1760f74d031212',
+        'reference' => '08ff4b32693ba562a3cb6f7f199b2c9bc9b8c7ff',
         'name' => 'deadlymous/nhentai',
         'dev' => true,
     ),
@@ -43,7 +43,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'a452e7ef67e2a52ee46ce5eb7a1760f74d031212',
+            'reference' => '08ff4b32693ba562a3cb6f7f199b2c9bc9b8c7ff',
             'dev_requirement' => false,
         ),
         'guzzlehttp/guzzle' => array(
