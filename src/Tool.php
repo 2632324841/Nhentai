@@ -15,7 +15,7 @@ class Tool{
 
     public function __construct()
     {
-        $this->Client = new Client(['verify'=>false,'http_errors'=>false]);
+        $this->Client = new Client(['verify'=>true,'http_errors'=>false]);
     }
 
     protected function imageType($url, $key){
